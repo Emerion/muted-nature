@@ -1,0 +1,52 @@
+{
+    "name": "muted-nature",
+    "displayName": "Muted Nature",
+    "description": "VS Code color theme in dark, muted colors. Greens, browns, blues. Just like nature.",
+    "version": "0.1.0",
+    "publisher": "Emerion",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#2b2b2b",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Emerion/muted-nature"
+    },
+    "bugs": {
+        "url": "https://github.com/Emerion/muted-nature/issues"
+    },
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "VSCode",
+        "Code",
+        "theme",
+        "dark",
+        "muted",
+        "colors",
+        "nature",
+        "brown",
+        "green",
+        "blue"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Muted Nature (Dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/muted-nature-dark-color-theme.json"
+            },
+            {
+                "label": "Muted Nature (Light)",
+                "uiTheme": "vs",
+                "path": "./themes/muted-nature-light-color-theme.json"
+            }
+        ]
+    },
+    "license": "MIT"
+}
